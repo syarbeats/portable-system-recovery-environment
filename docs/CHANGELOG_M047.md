@@ -1,0 +1,1 @@
+# Changelog M047\n- Added read-only USB MSC block device.\n- Added INQUIRY, TEST UNIT READY, READ CAPACITY(10), READ(10).\n- Added USB FAT32 probe and M006 read backend.\n- Added `m047-init`, `m047-info`, `usb-mount`.\n- Corrected M044 READ(10) CBW transfer length to match block count and discovered block size.\n

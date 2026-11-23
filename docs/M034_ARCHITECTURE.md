@@ -1,0 +1,2 @@
+# M034 — Architecture
+M030 dispatches input events synchronously to M034. M034 maintains a static table of 8 window records and an ordered ID array for z-order. The focused window is the topmost visible window. Rendering clears the framebuffer and paints windows bottom-to-top through M032; title/body text is drawn through M033. Window records own fixed title and text buffers; no heap allocations are used.

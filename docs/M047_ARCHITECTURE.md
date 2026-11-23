@@ -1,0 +1,1 @@
+# M047 Architecture\nM047 layers a read-only 512-byte block interface over M046 BOT. M044 READ(10) CBW construction sets the exact data-phase length using the discovered block size, capped at 4096 bytes. M047 splits reads into at most eight sectors and M006 routes FAT32 sector reads to ATA or USB according to the mounted backend.\n

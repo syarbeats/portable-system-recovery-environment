@@ -1,0 +1,1 @@
+# M047 Integration\nAfter M044/M045 activation and `m046-init`, run `m047-init`, `m047-info`, then `usb-mount`. Existing `ls`, `cat`, File Explorer and recovery APIs use the mounted USB FAT32 volume read-only.\n

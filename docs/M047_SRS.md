@@ -1,0 +1,1 @@
+# M047 — USB Block Device SRS\n- Initialize LUN 0 with SCSI INQUIRY, TEST UNIT READY and READ CAPACITY(10).\n- Expose read-only 512-byte sector reads.\n- Split READ(10) into at most eight sectors (4096 bytes) per BOT command.\n- Reject unsupported block sizes and out-of-range LBAs.\n- No USB sector write support.\n

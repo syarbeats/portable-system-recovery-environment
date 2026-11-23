@@ -1,0 +1,1 @@
+# M047 Build Validation\nRun `make test-m047`; strict C/C++ syntax, Makefile dry-run and cumulative host suites are required. Mocked tests do not prove physical USB I/O.\n

@@ -1,0 +1,1 @@
+# M047 Test Plan\nHost tests mock M046 SCSI and verify inquiry/capacity initialization, READ(10) chunking, data copy and LBA bounds. Hardware acceptance requires a real MSC flash drive and FAT32 mount/list/read testing.\n

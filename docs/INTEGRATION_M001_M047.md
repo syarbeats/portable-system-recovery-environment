@@ -1,0 +1,1 @@
+# PSRE Integrated Build 4.2 — M001–M047\nBuild 4.2 retains M001–M046 and adds a read-only USB MSC block device with FAT32 mount routing through the existing filesystem APIs. USB writes are not implemented.\n
