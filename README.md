@@ -7,6 +7,11 @@ read-only storage access, FAT32 filesystem recovery tools, USB and HID support,
 and a graphical desktop for diagnosing and recovering data from storage devices.
 It is designed to run as a bootable ISO in UEFI or BIOS environments and can be
 tested directly in QEMU.
+This project is a way to learn how an operating system works, especially since 
+operating systems are often considered one of the least favorite subjects among 
+Informatics students. I am motivated to develop this project to help students 
+learn about operating systems and bridge the gap between the theoretical knowledge 
+they gain in college and its practical implementation through real-world coding.
 
 <img width="1026" height="829" alt="image" src="https://github.com/user-attachments/assets/f0c98c52-a6cd-4e29-ba1e-8fc17312fa72" />
 
