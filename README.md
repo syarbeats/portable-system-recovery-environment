@@ -8,6 +8,9 @@ and a graphical desktop for diagnosing and recovering data from storage devices.
 It is designed to run as a bootable ISO in UEFI or BIOS environments and can be
 tested directly in QEMU.
 
+<img width="1026" height="829" alt="image" src="https://github.com/user-attachments/assets/f0c98c52-a6cd-4e29-ba1e-8fc17312fa72" />
+
+
 - x86_64, UEFI/Limine boot
 - C kernel core and C++ subsystem foundation
 - Framebuffer desktop with serial fallback
